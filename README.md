@@ -1,4 +1,4 @@
-<h1 align="center">⚡ Impact Economy 1.13 - 1.19.2</h1>
+<h1 align="center">⚡ Impact Economy 1.13 - 1.19.3</h1>
 
 Minecraft Spigot plugin
 ## Features
