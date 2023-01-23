@@ -23,7 +23,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public final class ImpactEconomy extends JavaPlugin {
-
+    public static final String VERSION = "0.1-SNAPSHOT";
     // Instance
     private static ImpactEconomy instance;
     public static ImpactEconomy getInstance(){

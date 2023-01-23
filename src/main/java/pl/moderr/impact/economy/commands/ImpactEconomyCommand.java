@@ -189,6 +189,9 @@ public class ImpactEconomyCommand implements CommandExecutor, TabCompleter {
                 return false;
             }
         }
+        if(args[0].equalsIgnoreCase("info")){
+            sender.sendMessage(ColorUtil.colorWithPrefix(ImpactEconomy.getInstance().getName() + "-" + ImpactEconomy.VERSION + " by Moderr#4646"));
+        }
         return false;
     }
     @Override
@@ -196,7 +199,7 @@ public class ImpactEconomyCommand implements CommandExecutor, TabCompleter {
         if(!sender.hasPermission("impact.economy.users.modify"))
             return null;
         if(args.length == 1)
-            return Arrays.asList("set", "add", "subtract", "get");
+            return Arrays.asList("set", "add", "subtract", "get", "info");
         return null;
     }
 }
