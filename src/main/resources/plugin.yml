@@ -1,0 +1,19 @@
+name: Impact-Economy
+version: '${version}'
+main: pl.moderr.impact.economy.ImpactEconomy
+api-version: 1.13
+authors: [MODERR]
+commands:
+  impacteconomy:
+    aliases: [ieconomy, economy]
+    permission: impact.economy.users.modify
+  balance:
+    aliases: [bal, money, coins]
+    permission: impact.economy.balance
+permissions:
+  impact.economy.balance:
+    default: true
+  impact.economy.users.modify:
+    default: op
+  impact.economy.users.view:
+    default: op

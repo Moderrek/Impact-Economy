@@ -1,0 +1,17 @@
+# Impact Economy v1.0 by MODERR
+# Settings
+# decimal-precision: 1 -> min 1
+# decimal-precision: 100 -> min 0.01
+decimal-precision: 100
+money-prefix: ''
+money-suffix: '$'
+# Types: FILE, MARIADB, MYSQL, POSTGRESQL
+storage-type: 'FILE'
+# File
+file-path: 'economy.yml'
+# MySQL
+mysql-host: 'localhost'
+mysql-port: 3306
+mysql-database: 'database'
+mysql-username: 'user'
+mysql-password: 'pass'
