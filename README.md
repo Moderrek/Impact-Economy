@@ -2,7 +2,7 @@
 
 Minecraft Spigot plugin
 ## Features
-* Fast Storage *(YAML, MySQL, MariaDB, PostgreSQL)*
+* Fast Storage *(YAML, <s>MySQL, MariaDB, PostgreSQL</s> **W.I.P** )*
 * Universal balance formatting
 * Modifing balance of offline players
 * Admin Tools
